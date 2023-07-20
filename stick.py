@@ -13,8 +13,8 @@ class Stick(Turtle):
 
     def up(self):
         if self.ycor() < 250:
-            self.goto(self.xcor(), self.ycor() + 20)
+            self.goto(self.xcor(), self.ycor() + 30)
 
     def down(self):
         if self.ycor() > -250:
-            self.goto(self.xcor(), self.ycor() - 20)
+            self.goto(self.xcor(), self.ycor() - 30)
